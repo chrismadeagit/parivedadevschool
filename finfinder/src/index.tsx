@@ -12,10 +12,9 @@ import MyApp from './MyApp';
 ReactDOM.render(
   <Router history={H.createBrowserHistory()}>
     <Switch>
-      <Route path="/" exact={true} component={Profile}></Route>
+      <Route path="/" exact={true} component={MyApp}></Route>
       <Route path="/interests" component={Interests}></Route>
       <Route path="/profile" component={Profile}></Route>
-      <Route path="/myApp" componenet={MyApp}></Route>
     </Switch>
   </Router>,
   document.getElementById('root') as HTMLElement

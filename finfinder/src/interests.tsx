@@ -1,5 +1,6 @@
 import * as React from 'react';
 import './App.css';
+import { Link } from 'react-router-dom';
 
 
 
@@ -13,7 +14,10 @@ class Interests extends React.Component {
                     <p className="lead">These are activities or hobbies in which you have indicated interest.</p>
                     <hr className="my-4" />
                     <p>You can add interests, or explore groups and events related to a specific interest of yours.</p>
-                    <a className="btn btn-primary btn-md" href="https://www.google.com" role="button">Back to home!</a>
+                    <div><Link to="">Return Home</Link></div>
+                    <Link to="profile">View Profile</Link>
+
+                    {/* <a className="btn btn-primary btn-md" href="myApp" role="button">Back to home!</a> */}
                 </div>
                 <div className="row">
                     <div className="col">
@@ -28,14 +32,14 @@ class Interests extends React.Component {
                             <div className="card-body ">
                                 <h3 className="card-title ">Interest2</h3>
                                 <p className="card-text ">Text</p>
-                                <button type="button" className="btn btn-success">Learn More</button>
+                                <a className="btn btn-success" href="https://www.google.com" >Learn More</a>
                             </div>
                         </div>
                         <div className="card ">
                             <div className="card-body ">
                                 <h3 className="card-title ">Interest3</h3>
                                 <p className="card-text ">Text</p>
-                                <button type="button" className="btn btn-success">Learn More</button>
+                                <a className="btn btn-success" href="https://www.google.com" >Learn More</a>
                             </div>
                         </div>
                     </div>

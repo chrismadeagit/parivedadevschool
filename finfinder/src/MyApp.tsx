@@ -5,18 +5,18 @@ import './App.css';
 //import Profile from "./Profile";
 
 class MyApp extends React.Component {
-    
+
     public render() {
         return (
             <div>
-                                        <Link to="interests">View interests</Link>
+                <Link to="interests">View interests</Link>
 
-                </div>
+            </div>
         )
-        
 
-        
-    
+
+
+
     }
 }
 

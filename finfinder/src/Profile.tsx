@@ -15,8 +15,8 @@ class Profile extends React.Component {
                     <div className="my-4">
                         <p>Your profile helps other Fins learn about you when you RSVP to an event!</p>
                         {/* <a className="btn btn-primary btn-md" href="#" role="button">Back to home</a> */}
-                        <Link to="myApp">Back to Home</Link>
-                        <Link to="interests">View interests</Link>
+                        <div><Link to="">Back to Home</Link></div>
+                        <Link to="interests">View Interests</Link>
                     </div>
                 </div>
                 <div className="grid">
@@ -49,8 +49,7 @@ class Profile extends React.Component {
                                 <div className="card-body">
                                     <blockquote className="blockquote mb-0">
                                         <p>To err is human.</p>
-                                        <footer className="blockquote-footer">Someone famous in
-                                    <cite title="Source Title">Source Title</cite>
+                                        <footer className="blockquote-footer">Alexander Pope
                                         </footer>
                                     </blockquote>
                                 </div>
