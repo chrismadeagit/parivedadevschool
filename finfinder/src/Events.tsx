@@ -7,7 +7,7 @@ class App extends React.Component {
     return (
     <div className="container border border-dark">
         <ProfileCard/> 
-        <h2 className="display-4 text-center">Events</h2>
+        <h2 className="display-4 text-center">Events1</h2>
         <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
             <ol className="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"/>
