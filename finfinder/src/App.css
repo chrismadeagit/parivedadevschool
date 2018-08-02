@@ -26,3 +26,21 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.col-md-4 {
+
+  margin: 5px;
+
+}
+
+.card {
+  margin: 5px;
+}
+
+.card-text{
+  margin: 5px;
+}
+
+.form-control{
+  margin-bottom: 10px;
+}
