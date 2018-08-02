@@ -1,32 +1,21 @@
 import * as React from 'react';
+import { Link } from 'react-router-dom';
 import './App.css';
-import Interests from './interests';
-import Profile from "./Profile";
+//import Interests from './interests';
+//import Profile from "./Profile";
 
-interface IMyState {
-    showInterests: boolean
-}
-
-
-class MyApp extends React.Component<{},IMyState> {
-    constructor(p: any) {
-        super(p);
-        this.state = { showInterests: true }
-    }
-    public onToggle = () => {
-        this.setState({ showInterests: !this.state.showInterests });
-    }
+class MyApp extends React.Component {
+    
     public render() {
-        // return (<Interests/>)
         return (
-        <div className="MyApp">
             <div>
-                <button onClick={this.onToggle}>Toggle</button>
-            </div>
-            {this.state.showInterests ? <Interests /> : <Profile />}
-        </div>
+                                        <Link to="interests">View interests</Link>
 
-        );
+                </div>
+        )
+        
+
+        
     
     }
 }
