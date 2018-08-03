@@ -1,0 +1,73 @@
+<!-- This is the Profile View page -->
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <div class="jumbotron">
+
+        <h1 class="display-4">Your Interests</h1>
+        <p class="lead">These are activities or hobbies in which you have indicated interest.</p>
+        <hr class="my-4">
+        <p>You can add interests, or explore groups and events related to a specific interest of yours.</p>
+        <a class="btn btn-primary btn-md" href="#" role="button">Back to home</a>
+    </div>
+    <div class="row">
+        <div class="col" style="margin: 5px">
+            <div class="card" style="margin: 5px">
+                <div class="card-body ">
+                    <h3 class="card-title ">Interest1</h3>
+                    <p class="card-text ">Text</p>
+                    <button type="button" class="btn btn-success" id="learnmore">Learn More</button>
+
+                    <!-- <a href="home.html">Learn More</a>  -->
+
+                </div>
+            </div>
+            <div class="card " style="margin: 5px">
+                <div class="card-body ">
+                    <h3 class="card-title ">Interest2</h3>
+                    <p class="card-text " style="margin-left: 5">Text</p>
+                    <button type="button" class="btn btn-success">Learn More</button>
+                </div>
+            </div>
+            <div class="card " style="margin: 5px">
+                <div class="card-body ">
+                    <h3 class="card-title ">Interest3</h3>
+                    <p class="card-text ">Text</p>
+                    <button type="button" class="btn btn-success">Learn More</button>
+                </div>
+            </div>
+        </div>
+        <!--end of the first column-->
+        <div class="col-md-4" style="margin: 5px">
+            <h2>Explore Interests</h2>
+            <h3 class="text text-muted">Selected interests will appear here.</h3>
+            <div class="card" style="margin: 10px">
+                <div class="card-body text-muted">Here is more information.</div>
+            </div>
+        </div>
+        <!--end of second column-->
+
+        <div class="col-md-4" style="margin: 5px">
+            <h3 class="card-title">Add Interests</h3>
+            <select class="form-control form-control-lg" style="margin-bottom: 10px">
+                <option>Interest Name</option>
+            </select>
+            <select class="form-control" style="margin-bottom: 10px">
+                <option>Interest Level</option>
+            </select>
+            <button type="button" class="btn btn-primary">Add</button>
+
+        </div>
+
+    </div>
+
+
+    <script src="interests.js"></script>
+</body>

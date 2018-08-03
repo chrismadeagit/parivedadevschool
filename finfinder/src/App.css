@@ -32,3 +32,21 @@
   height:800px; 
   width:1000px; 
 }
+
+.col-md-4 {
+
+  margin: 5px;
+
+}
+
+.card {
+  margin: 5px;
+}
+
+.card-text{
+  margin: 5px;
+}
+
+.form-control{
+  margin-bottom: 10px;
+}
