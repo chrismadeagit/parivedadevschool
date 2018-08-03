@@ -11,11 +11,7 @@ class ProfileCard extends React.Component {
                     <div className="card">
                         <div className="card-body">
                             <h5 className="card-title">Interests</h5>
-                            <ul className="list-group list-group-flush">
-                                <input type="text" />
-                                <ProfileCardListItemContainer name=""/> 
-                                <button type="button" className="btn btn-primary btn-sm">Add Interest</button>
-                            </ul>
+                            <ProfileCardListItemContainer title="Interest" />
                         </div>
                     </div>
 
@@ -23,8 +19,7 @@ class ProfileCard extends React.Component {
                         <div className="card-body">
                             <h5 className="card-title">Groups</h5>
                             <ul className="list-group list-group-flush">
-                                <li className="list-group-item">LARP Club</li>
-                                <button type="button" className="btn btn-primary btn-sm">Add Group</button>
+                                <ProfileCardListItemContainer title="Group" />
                             </ul>
                         </div>
                     </div>
